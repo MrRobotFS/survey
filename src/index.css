@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root{
+  --primary-color:blue;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'comfortaa', 'Roboto',sans-serif;
+}
+
+/*Header*/
+
+.header__container{
+  display: inline-block;
+  width: 100%;
+  margin:2rem 0;
+}
+
+.header__title{
+  text-align: center;
+  margin:1rem,0;
+  font-size: 5rem;
+}
+
+/*Surveys*/
+
+.suverys__poll{
+  width: "100%"; 
+  height: "608px";
+}
+
+/*Footer*/
+
+.footer__container{
+  display: inline-block;
+  width: 100%;
+  margin:2rem 0;
+}
+
+.footer__text{
+  text-align: center;
+  margin:1rem,0;
+  font-size: 2rem;
+}
+
+
+/*Media Query*/
+
+@media (min-width:576px) {
+  
+}
+
+@media (min-width:768px) {
+  
+}
+
+@media (min-width:992px) {
+  
+}
+
+@media (min-width:1200px) {
+  
+}   
+
+@media (min-width:1400px) {
+  
+}
